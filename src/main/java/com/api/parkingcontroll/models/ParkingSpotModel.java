@@ -1,9 +1,9 @@
 package com.api.parkingcontroll.models;
 
+import jakarta.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 import java.util.UUID;
-import javax.persistence.*;
 
 @Entity
 @Table(name = "TB_PARKING_SPOT")
